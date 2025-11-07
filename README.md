@@ -22,13 +22,13 @@ This project builds an AWS data lake using Terraform, integrating:
 ## 🧩 Directory Structure
 
 infra/
-├── main.tf # Core Terraform setup
-├── lakeformation.tf # Lake Formation governance config
-├── glue_job_script.py # ETL logic
-├── variables.tf # Input variables
-├── outputs.tf # Outputs after apply
-├── policies/ # IAM trust and assume role policies
-├── terraform.tfvars.example # Example values
+├── main.tf                   # Core Terraform setup
+├── lakeformation.tf          # Lake Formation governance config
+├── glue_job_script.py        # ETL logic
+├── variables.tf              # Input variables
+├── outputs.tf                # Outputs after apply
+├── policies/                 # IAM trust and assume role policies
+├── terraform.tfvars.example  # Example values
 ├── .gitignore
 └── README.md
 
