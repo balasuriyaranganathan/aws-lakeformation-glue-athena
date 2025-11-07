@@ -43,7 +43,7 @@ infra/
 terraform init
 terraform plan
 terraform apply
-
+```
 
 
 ---
@@ -61,5 +61,5 @@ git commit -m "Initial commit: Lake Formation + Glue + Athena project"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
-
+```
 
