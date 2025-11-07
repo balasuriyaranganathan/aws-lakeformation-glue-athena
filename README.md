@@ -20,7 +20,7 @@ This project builds an AWS data lake using Terraform, integrating:
   - Validates data read-back from the Iceberg table
 
 ## 🧩 Directory Structure
-
+```
 infra/
 ├── main.tf                   # Core Terraform setup
 ├── lakeformation.tf          # Lake Formation governance config
@@ -31,7 +31,7 @@ infra/
 ├── terraform.tfvars.example  # Example values
 ├── .gitignore
 └── README.md
-
+```
 
 ## 🔒 Secrets & Security
 - No AWS keys or tfstate files are stored in this repo.
